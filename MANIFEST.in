@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include requirements.txt
+recursive-include src/art_animator *.py
+recursive-include docs *.md *.rst
+recursive-include config *.yaml *.json

@@ -1,0 +1,20 @@
+# AI Art Animator Default Configuration
+
+style:
+  name: "Pencil Sketch"
+  shading_intensity: 0.6
+
+animation:
+  speed: 50
+  detail_level: 75
+  fps: 30
+  resolution: null  # null = source size, or [width, height]
+  paper_texture: true
+  human_jitter: true
+  timelapse: false
+  export_gif: false
+  background_type: "White Paper"
+
+output_dir: "~/ArtAnimator_Exports"
+log_level: "INFO"
+max_workers: 4

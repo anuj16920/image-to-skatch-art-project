@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  art-animator:
+    build: .
+    image: ai-art-animator:latest
+    container_name: art-animator
+    volumes:
+      - ./inputs:/inputs:ro
+      - ./outputs:/outputs
+    environment:
+      - OUTPUT_DIR=/outputs
+      - LOG_LEVEL=INFO
+    command: art-animator animate /inputs/sample.jpg -o /outputs/animation.mp4
