@@ -8,7 +8,7 @@
 
 ## ✨ Features
 
-- **6 Artistic Styles**: Pencil Sketch, Advanced Sketch, Watercolor, Oil Painting, Charcoal, Anime/Manga
+- **6 Artistic Styles**: Pencil Sketch, Advanced Sketch, Watercolor, Oil Painting, Charcoal, Anime/Manga.
 - **Realistic Stroke Simulation**: Multi-layer rendering with human-like jitter and pressure variation
 - **Dual Interface**: Modern GUI and powerful CLI
 - **Extensive Customization**: Speed, detail level, shading, resolution, FPS
